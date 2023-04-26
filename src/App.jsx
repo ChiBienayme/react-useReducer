@@ -148,6 +148,7 @@ function App() {
           onChange={e => {
               dispatch(setJob(e.target.value))
           }}
+          onKeyUp={e => e.key === "Enter" && handleSubmit()}
       />
       <button onClick={handleSubmit}>Add</button>
       
