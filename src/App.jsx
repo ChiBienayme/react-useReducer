@@ -168,6 +168,13 @@ function App() {
                 >
                   Save
                 </button>
+
+                <button 
+                  onClick={() => handleEdit(index, task)}
+                >
+                  Cancel
+                </button>
+
               </>
             ) : (
               <>
